@@ -28,7 +28,7 @@ function App() {
       >
         Prev
       </button>
-      <button className="next-btn"
+      <button  className="next-btn"
         onClick={() => {
           if (count < initialArray.length) setCount(count + 1);
         }}
@@ -36,8 +36,8 @@ function App() {
       >
         Next
       </button>
+       <button className="random-btn" onClick={setRandom}>surprise me</button>
       </div>
-      <button className="random-btn" onClick={setRandom}>surprise me</button>
     </div>
   );
 }
