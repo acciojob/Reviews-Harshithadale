@@ -20,8 +20,7 @@ function App() {
         <p className="job">{review.job}</p>
         <p className="info">{review.text}</p>
         <img src={review.image} width="60" height="60" className="person-img"/>
-      </div>
-      <button className="prev-btn"
+         <button className="prev-btn"
         onClick={() => {
           if (count > 1) setCount(count - 1);
         }}
@@ -37,6 +36,7 @@ function App() {
       >
         Next
       </button>
+      </div>
       <button className="random-btn" onClick={setRandom}>surprise me</button>
     </div>
   );
