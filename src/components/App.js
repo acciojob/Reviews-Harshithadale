@@ -24,7 +24,6 @@ function App() {
         onClick={() => {
           if (count > 1) setCount(count - 1);
         }}
-        disabled={count === 1}
       >
         Prev
       </button>
@@ -32,7 +31,6 @@ function App() {
         onClick={() => {
           if (count < initialArray.length) setCount(count + 1);
         }}
-        disabled={count === initialArray.length}
       >
         Next
       </button>
